@@ -4,6 +4,7 @@ const SecurePage = require('../pageobjects/secure.page');
 describe('Test suit', () => {
     it('test case 3', async () => {
         //step 1
+        //
         await browser.url('https://github.com/');
         await browser.pause(2000);   
         //step 2
