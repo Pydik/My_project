@@ -2,7 +2,7 @@
 const LoginPage = require('../pageobjects/login.page');
 const SecurePage = require('../pageobjects/secure.page');
 
-describe('Test suit', () => {
+describe('Test_suit_social_media_buttons_lesson_20', () => {
     it('Button Facebook', async () => {
         //step 1
         await browser.url('https://github.com/');
